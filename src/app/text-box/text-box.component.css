@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  font-family: 'Arial', sans-serif;
+  color: gold;
+}
+
+.container h1 {
+  color: gold;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 25px;
+}
+
+.container h2 {
+  color: gold;
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 25px;
+}
+
+.nice-wrap {
+  position: relative;
+  width: 500px;
+  height: 100px;
+  margin: 0 auto;
+
+}
+
+.nice-label {
+  position: absolute;
+  top: 15px;
+  left: 10px;
+  font-size: 16px;
+  color: black;
+  transition: all 0.25s ease;
+}
+.nice-label.focus {
+  top: -25px;
+  left: 5px;
+  font-size: 10px;
+  color: white;
+}
+
+.nice-textbox {
+  position: relative;
+  display: block;
+  width: 500px;
+  margin-top: 50px;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  color: white;
+  outline: none;
+}
